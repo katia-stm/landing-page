@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.capa{
+    background: url(images/img12.png) no-repeat center; 
+    background-size: cover;/*imagem ajusta ao tamanho do container*/
+    height: 500px;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("images/img12.png")
+}
+
+.menu{
+    height: 3.5em;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.logo {
+    width: 55px;
+    justify-content: space-between;
+    top: 5%;
+ }
+ 
+ .navegador {
+    gap: 2em;
+ }
+ 
+ .menu, .navegador { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ 
+ .navegador a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+ .texto {
+    text-align: center;
+    padding-top: 10em;
+    height: 100vh;
+    transition: 1s;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: bold; 
+ }
+
+ .texto1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.traco {
+    line-height: 0.0;
+    margin-left: 660px;
+    margin-right: 660px;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    border-color: rgba(181,147,88,1); 
+}
+
+.palestras {
+    background-color: rgba(181,147,88,1);   
+ }
+
+ .texto2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 50px; 
+    
+ }
+
+
+ .section {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 300px;
+ }
+
+.data {
+   color: #560303;
+   font-weight: bold;
+   font-size: 18px;
+   padding-right: 120px;
+ }
+
+ .assunto {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+    padding-right: 30px;
+  }
+
+.divulg {
+    text-align: center;
+    color: #560303;
+   font-weight: bold;
+   font-size: 25px;
+}
+
+.section1 {
+    text-align: center;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #560303;
+    font-size: 16px;
+    font-style: italic;
+}

@@ -7,93 +7,81 @@
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-        body {
-          margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        .hero-image {
-          background: url(images/img14.png) no-repeat center; 
-          background-size: cover;
-          height: 500px;
-          position: relative;
-        }
-        
-        .hero-text {
-          text-align: center;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-        }
-        </style>
+    <link rel="stylesheet" href="palestrantes.css">
     <title>Fashion K - Palestrantes</title>
 </head>
 <body>
-    <div class="hero-image">
-        <div class="hero-text">
-    <header>
-        <div class="fixed-logo">
-          <img src="images/logo.ico" alt="Logo do evento" />
-          <p>Fashion K</p>
-        </div>
-    
-    <nav>
-        <strong>
+    <div class="capa" id="capa">
+        <div class="menu" id="menu">
+          <div class="logo">
+            <img src="images/logo.png" class="logo" alt="Logo do evento" /> 
+          </div>
+          <div class="navegador">
             <a target ="_self" href="index.html" rel="next">Página inicial</a>
             <a href="programacao.html" target="_self" rel="next">Programação</a>
             <a href="palestrantes.html" target="_self" rel="next">Palestrantes</a>
             <a href="local.html" target="_self" rel="next">Local</a>
-        </strong>
-    </nav>
-<br><br>
-<h1>Palestrantes</h1>
+          </div>
+        </div>
+        <div class="texto">
+          <div class="texto1">Palestrantes</div>
+          <h1 class="traco"></h1>
+        </div>
+      </div>
+<br><br><br>
+<div class="principal">
+    <div class="section">
+        <div class="imagem">
+            <img src="images/img7.png" alt="Mulher estilista" width="263,25" height="263,25">
+        </div>
+        <div class="desc">
+            <p class="nome"><strong>Anna</strong></p>
+    <p>Estilista com foco na moda elegante, minimalista e inclusiva, buscando conforto e praticidade com um guarda-roupa inteligente e funcional</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="imagem">
+            <img src="images/img8.png" alt="Homem maquiador e cabeleireiro" width="263,25" height="263,25">
+        </div>
+        <div class="desc">
+            <p class="nome"><strong>Brenno</strong></p>
+    <p>Maquiador e cabeleireiro visagista com foco em valorizar a beleza individual de cada um, fazendo com que o visual transmita a personalidade do cliente</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="imagem">
+            <img src="images/img9.png" alt="Homem elegante" width="263,25" height="263,25">
+        </div>
+        <div class="desc">
+            <p class="nome"><strong>Raphael</strong></p>
+    <p>Consultor de imagem e estilo com foco na definição da identidade visual do cliente, transmitindo sua essência e personalidade</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="imagem">
+            <img src="images/img10.png" alt="Mulher elegante" width="263,25" height="263,25">
+        </div>
+        <div class="desc">
+            <p class="nome"><strong>Aurora</strong></p>
+    <p>Consultora de etiqueta e comportamento com mais de 20 anos de experiências nos mais variados eventos</p>
+        </div>
+    </div>
 </div>
+<br><br>
+
+<div class="redesSociais">
+    <p>Acesse nossas redes sociais e conheça mais sobre nosso projeto e nossos palestrantes</p>
+    <a href="https://www.instagram.com/" target="_blank" rel="external"><img src="images/instagram.jpg" class="media-object  img-responsive img-thumbnail"></a>
+    <a href="https://pt-br.facebook.com/" target="_blank" rel="external"><img src="images/facebook.png" class="media-object  img-responsive img-thumbnail"></a>
+
 </div>
 <br><br>
-<img src="images/img7.png" alt="Mulher estilista">
-<p><strong>Anna</strong></p>
-<p>Estilista com foco na moda elegante, minimalista e inclusiva, buscando conforto e praticidade com um guarda-roupa inteligente e funcional</p>
-<img src="images/img8.png" alt="Homem maquiador e cabeleireiro">
-<p><strong>Brenno</strong></p>
-<p>Maquiador e cabeleireiro visagista com foco em valorizar a beleza individual de cada um, fazendo com que o visual transmita a personalidade do cliente</p>
-<img src="images/img9.png" alt="Homem elegante">
-<p><strong>Raphael</strong></p>
-<p>Consultor de imagem e estilo com foco na definição da identidade visual do cliente, transmitindo sua essência e personalidade</p>
-
-<img src="images/img10.png" alt="Mulher elegante">
-<p><strong>Aurora</strong></p>
-<p>Consultora de etiqueta e comportamento com mais de 20 anos de experiências nos mais variados eventos.</p>
-<br><br>
-<p>Acesse nossas redes sociais e conheça mais sobre nosso projeto e nossos palestrantes</p>
-<br><br>
-<a href="https://www.instagram.com/" target="_blank" rel="external"><img src="images/instagram.png" class="media-object  img-responsive img-thumbnail"></a>
-
-<a href="https://pt-br.facebook.com/" target="_blank" rel="external"><img src="images/facebook.png" class="media-object  img-responsive img-thumbnail"></a>
-
-<form class="formulario" method="post"> 
+<div class="formulario">
     <p> Inscreva-se preenchendo o formulário abaixo</p>
-    
-    <div class="field">
-        <label for="nome">Nome completo *</label>
-        <input type="text" id="nome" name="nome" placeholder="Sua resposta" required>
-    </div>
-    
-    <div class="field">
-        <label for="telefone">E-mail *</label>
-        <input type="text" id="telefone" name="telefone" placeholder="Sua resposta">
-    </div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexAt3dU1IitM3CcTAAA8_55Ti_Dw3_tGL0t7Ke1rF7opnMXA/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+</div>
 
-    <div class="field">
-        <label for="email">Telefone *</label>
-        <input type="email" id="email" name="email" placeholder="Sua resposta" required>
-    </div>        
-    <input type="reset"  name="b2" value="Limpar">
-    <input type="submit" name="acao" value="Enviar">
-</form>
 <br><br>
-<footer><em>Criado e desenvolvido por: Kátia STM</em></footer>
+<footer><strong> Criado e desenvolvido por: Kátia STM</strong></footer>
 </body>
 </html>
